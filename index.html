@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Web APIs: Code Quiz</title>
+</head>
+    <header class=" customHeader">
+        <ul class="row-col-4 list-group list-group-horizontal">
+            <li class="col-4 list-inline-item"><span id="highscore">View Highscores</span></li> 
+            <li class="col-4 list-inline-item">Time: <span id="timer">0</span></li>
+        </ul>
+    </header>
+    
+    <section class="d-flex">
+    <div class = "quizBody">
+        <h1 id="headerLine">Coding Quiz Challenge</h1>
+        <p id="headerBody">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <button type = "button" class="btn btn-dark btnStyle" id="startQuiz">Start Quiz</button>
+        <div class ="answers">
+            <button type = "button" name="qBtn" class="btn btn-dark btnStyle hide" id="btn1">1</button>
+            <button type = "button" name="qBtn" class="btn btn-dark btnStyle hide" id="btn2">2</button>
+            <button type = "button" name="qBtn" class="btn btn-dark btnStyle hide" id="btn3">3</button>
+            <button type = "button" name="qBtn" class="btn btn-dark btnStyle hide" id="btn4">4</button>
+        </div>
+        <p id="responseLine"></p>
+        <form action="#scoreModal" id='initialForm'>
+            <label for="userInitials" name="gameOver" class="hide">Please enter your name/initials to save your score!</label><br>
+            <input type="text" id="userInitials" name="gameOver" class="hide" placeholder=" --Name/initials--"><br>
+            <input type="button" id ="submitScore" name="gameOver" class="btn btn-dark btnStyle hide" value="Submit">
+        </form> 
+    </div>
+    </section>
+
+<div id="scoreModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1 id="modalHeader">High Scores</h1>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul id="nameList">
+                <li><h3>Name</h3></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul id="scoreList">
+                <li><h3>High Scores</h3></li>
+            </ul>
+          </div>
+        </div>
+    <ul id="scoreList">
+    </ul>
+  </div>
+</div>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
