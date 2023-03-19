@@ -6,4 +6,4 @@ into a highscore leaderboard.
 
 ![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewStart.png)
 ![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewQuestion.png)
-![Alt text]()
+![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewGameOver.png?raw=true)
