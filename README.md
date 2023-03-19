@@ -4,3 +4,6 @@ Each wrong answer will deduct 10 points from the timer and when all questions ha
 When the quiz ends, the time left will be recorded as the final score for the player and prompt the player to save their name with their final score
 into a highscore leaderboard.
 
+![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewStart.png)
+![Alt text]()
+![Alt text]()
