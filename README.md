@@ -5,5 +5,5 @@ When the quiz ends, the time left will be recorded as the final score for the pl
 into a highscore leaderboard.
 
 ![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewStart.png)
-![Alt text]()
+![Alt text](https://github.com/vyang9887/Javascript-quiz/blob/main/readmePreview/PreviewQuestion.png)
 ![Alt text]()
